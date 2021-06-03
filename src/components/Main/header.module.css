@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.header{
+    position: relative;
+    height: 60px;
+    background-color: none;
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: auto 30px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.name{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 1.5px;
+}
+.sections{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sections span{
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: none;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.header .about:hover{
+    background: rgb(145, 92, 182);
+    box-shadow: 0 5px 40px rgba(145, 92, 182, .4);
+}
+.sections .skills:hover{
+    background-color: #43C1C2;
+    box-shadow: 0 5px 40px rgba(67, 193, 194, .4);
+}
+.sections .projects:hover{
+    background-color: #E8E74B;
+    box-shadow: 0 5px 30px rgba(232, 231, 75, .4);
+}
+.sections .resume:hover{
+    background-color: #D89B9B;
+    box-shadow: 0 5px 30px rgba(216, 155, 155, .4);
+}
