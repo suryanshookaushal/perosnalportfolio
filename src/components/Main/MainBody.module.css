@@ -5,7 +5,56 @@
     width: 100%;
     padding: 15px 50px;
     display: flex;
-}
+    animation: main ease 5s;
+    -webkit-animation: main ease 5s;
+    -moz-animation: main ease 5s;
+    -o-animation: main ease 5s;
+    -ms-animation: main ease 5s;
+} 
+  @keyframes main{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes main {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes main {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes main {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes main {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
 .first{
     width: 50%;
     display: flex;
@@ -23,7 +72,7 @@
 }
 .coding{
     width: 90%;
-    height: 60%;
+    height: 80%;
 }
 .hi{
     color: white;
@@ -54,4 +103,21 @@
      50% { transform: rotate(10.0deg) }
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
+}
+.aboutbutton{
+  margin-top: 15px;
+  padding: 10px 35px;
+  font-size: 20px;
+  color: #08FDD8;
+  border: none;
+  border: 1px solid #08FDD8;
+  background-color: #1D1D1D;
+  background: linear-gradient(to left, #1D1D1D 50%, #08FDD8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.aboutbutton:hover{
+  background-position: left;
+  color: black;
+  cursor: pointer;
 }

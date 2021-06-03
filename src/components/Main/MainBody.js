@@ -1,10 +1,10 @@
 import classes from './MainBody.module.css'
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import secondimg from '../../img/first.svg'
+import thirdomg from '../../img/coding.gif'
 import Typewriter from './Typewriter'
 
-
-const MainBody = ()=>{
+const MainBody = (props)=>{
     return(
         <Fragment>
         <div className={classes.main}>
@@ -15,6 +15,7 @@ const MainBody = ()=>{
                     <span class={classes.wave}>👋</span>
                     <p>I am<span className={classes.suryanshoo}> SURYANSHOO!!</span></p>
                     <Typewriter />
+                    <button className={classes.aboutbutton} onClick={props.show}>Know more!</button>
                 </div>
 
             </div>

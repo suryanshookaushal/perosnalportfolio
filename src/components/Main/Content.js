@@ -3,12 +3,12 @@ import { Fragment } from "react"
 import Header from './Header'
 import MainBody from './MainBody'
 
-const Content = ()=>{
+const Content = (props)=>{
     return(
     <Fragment>
         <div className={classes.main}>
             <Header />
-            <MainBody />
+            <MainBody show={props.show}/>
         </div>
     </Fragment>
     )
