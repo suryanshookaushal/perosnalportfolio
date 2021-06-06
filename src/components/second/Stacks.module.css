@@ -1,6 +1,6 @@
 .second{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color:#1D1D1D;
     padding: 20px 10px;
     display: relative;
@@ -25,11 +25,12 @@
 }
 .tech{
     width: 50%;
-    padding-left: 20px;
     display: flex;
     flex-direction: column;
     color: white;
 }
 .para{
     width: 50%;
+    display: flex;
+    justify-content: center;
 }

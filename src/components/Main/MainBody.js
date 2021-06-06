@@ -4,7 +4,7 @@ import secondimg from '../../img/first.svg'
 import thirdomg from '../../img/coding.gif'
 import Typewriter from './Typewriter'
 import SocialMedia from '../SocialMedia/SocialMedia'
-import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 const MainBody = (props)=>{
     return(
@@ -16,9 +16,9 @@ const MainBody = (props)=>{
                     <span className={classes.hi}>Hi there!</span>
                     <span class={classes.wave}> 👋</span>
                     <p>I am
-                    <Zoom top cascade>
+                    <Bounce top cascade>
                     <span className={classes.suryanshoo}> SURYANSHOO!!</span>
-                    </Zoom>
+                    </Bounce>
                     </p>
                     <Typewriter />
                     <SocialMedia />
