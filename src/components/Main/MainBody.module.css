@@ -10,6 +10,8 @@
     -moz-animation: main ease 5s;
     -o-animation: main ease 5s;
     -ms-animation: main ease 5s;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
 } 
   @keyframes main{
     0% {
@@ -83,6 +85,7 @@
     font-size: 50px;
     letter-spacing: 1px;
     margin-left: 7px;
+    transition: 1s;
     font-family: 'Dancing Script', cursive;
 }
 .wave {
